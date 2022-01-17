@@ -32,10 +32,6 @@ class ViewController: UIViewController, MenuControllerDelegate {
             print(error.localizedDescription)
         }
         
-        
-        let aws_access_key = "AKIAIOSFODNN7EXAMPLE"
-        let aws_secret_access_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
-        
         menu.delegate = self
 
         sideMenu = SideMenuNavigationController(rootViewController: menu)
